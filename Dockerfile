@@ -5,5 +5,5 @@ MAINTAINER Jiri Tobolka <jiri.tobolka@bizztreat.com>
 RUN yum -y install ruby
 RUN yum -y install git
 RUN yum -y install rubygems
-RUN gem update
-RUN gem install rest-client
+RUN which rubygems
+RUN which rest-client
